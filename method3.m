@@ -3,7 +3,7 @@ for(i=1:9)
 x=imread(['im' num2str(i) '.jpg']);
 % figure,imshow(x);
 ref=double(x);
-
+asdsadsadsad
 y=gamma_correction(x, [0 1], [0 1], 0.2);
 % figure,imshow(y);
 % y=imgaussfilt(y);
